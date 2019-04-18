@@ -16,6 +16,10 @@ namespace PFE.IntelliCode
             {
                 Console.WriteLine(output.GetGoodMorning());
             }
+
+            var outputString = string.Empty;
+            outputString = output.IsMorning() ? output.GetGoodMorning() : output.GetGoodMorning();
+            Console.WriteLine(outputString);
         }
     }
 }
